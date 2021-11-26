@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/bin/node /home/sirus/.yarn/bin/yarn.js add express
+
+PATH: 
+  /home/sirus/.yarn/bin:/home/sirus/.config/yarn/global/node_modules/.bin:/home/sirus/.cache/cloud-code/installer/google-cloud-sdk/bin:/home/sirus/.yarn/bin:/home/sirus/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "jenkinsdockerhub",
+    "version": "1.0.0",
+    "description": "for testing dockerhub with jenkins",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dykoffi/jenkinsTestDockerHub.git"
+    },
+    "author": "edy koffi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dykoffi/jenkinsTestDockerHub/issues"
+    },
+    "homepage": "https://github.com/dykoffi/jenkinsTestDockerHub#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
